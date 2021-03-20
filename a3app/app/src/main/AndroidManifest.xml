@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jdiaz88.a1app">
-
-    <!--     This permission gets register to the device! -->
-    <!--    Dangerous level permissions = the user has to grant -->
-    <!--    You must handle if user says yes or no to grant ... -->
-    <permission android:name="edu.uic.cs478.s19.kaboom"
-        android:protectionLevel="dangerous"/>
-    <uses-permission android:name="edu.uic.cs478.s19.kaboom"/>
-
+    package="com.jdiaz88.a3app">
 
     <application
         android:allowBackup="true"
@@ -16,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.A1App">
+        android:theme="@style/Theme.A3App">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.jdiaz88.a2app" />
     </application>
 
 </manifest>
